@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 Contest-2 April</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<p class="leg">Signup</p>
+<form action="">
+    <fieldset>
+        <legend></legend>
+        <p>Filter ui cards via their profession.</p>
+        <select name="proff" form="size-form" class="proff" id="proff">
+            <option value="">Profession</option>
+            <option value="developer">developer</option>
+            <option value="admin">admin</option>
+          </select>
+          <br>
+        <div id="employee_list"></div>
+
+          <br>
+          <input type="submit" name="submit" value="Filter" class="sub" id="filter-button">
+          <br><br>
+          <p>Add a new User</p>
+    
+          <div class="your-class">
+           <div class="inline-input">
+            <label for="name">Enter Name</label>
+            <div><input name="name" id="Enter_Name" type="text" class="text_input" />
+            </div>
+           </div>
+           <div class="inline-input">
+            <label for="profession">Enter Profession</label>
+            <div><input name="profession" id="Enter_Profession" type="text" class="text_input"/>
+            </div>
+           </div>
+             <div class="inline-input">
+              <label for="age">Enter Age</label>
+              <div>
+                <input name="age" id="Enter_Age" type="text" class="text_input" />
+              </div>
+          
+             </div>
+            
+          </div>
+          <br>
+    
+          <input type="submit" name="submit" value="Add User" class="sub" id="add_user">
+    </fieldset>
+   
+</form>
+<script src="script.js"></script>
+</body>
+</html>

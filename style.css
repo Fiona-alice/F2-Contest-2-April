@@ -1,0 +1,60 @@
+*{
+    font-family: "inter";
+    background-color: black;
+    font-style: light;
+    font-size: 18px;
+}
+
+
+.leg{
+    margin-bottom: 0;
+    color: gray;
+}
+form{
+    background-color: #1E1E1E;;
+    color: white;
+    
+}
+.proff{
+    color: white;
+    padding-left: 8px;
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+
+}
+.sub{
+    background-color: white; 
+width: 120px;
+height: 40px;
+
+}
+li.employee{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width: 35%;
+   padding-left: 10px;
+    margin-bottom: 15px;
+
+}
+.text_input{
+    color: white;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+.your-class{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inline-input{
+flex-grow: 1;
+}
+#employee_list{
+    margin-top: 35px;
+}
